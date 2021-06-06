@@ -1,0 +1,15 @@
+Proceso Mayor
+	Leer menor
+	mayor = menor
+	Para i=0; hasta 19;i++
+		Leer N
+		Si (N < menor) Entonces
+			menor = N
+		Sino 
+			Si (N > mayor) Entonces
+				mayor = N
+			Fin Si
+		Fin Si
+	Fin Para
+	Escribir "La edad mayor es de ",mayor," años y la menor es de",menor,"años"
+	FinProceso
